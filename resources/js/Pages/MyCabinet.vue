@@ -1,8 +1,8 @@
 <script setup>
 import { Head, Link } from '@inertiajs/vue3';
-import MainMenu  from '@/Components/Menu/MainMenu.vue';
-
-
+import MainMenu from '@/Components/Menu/MainMenu.vue';
+import DaysAndPlans from '@/Components/Plans/DaysAndPlans.vue';
+ 
 
 
 </script>
@@ -10,16 +10,9 @@ import MainMenu  from '@/Components/Menu/MainMenu.vue';
 <template>
     <Head title="My Cabinet" />
     <MainMenu />
+    <DaysAndPlans />
     
     
-    <div>
-        <h1 class="">miiii</h1>
-        <h1 class="">miiii</h1>
-        <h1 class="">miiii</h1>
-        <h1 class="">miiii</h1>
-        <h1 class="">miiii</h1>
-        <h1 class="">miiii</h1>
-    </div>
 
     
     </template>

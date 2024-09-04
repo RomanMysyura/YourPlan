@@ -2,7 +2,7 @@
 import { Head, Link } from '@inertiajs/vue3';
 
 </script>
-
+ 
 <template>
     <div class="w-full z-50 bg-white border-b backdrop-blur-lg bg-opacity-80">
         <div class="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8 ">
@@ -28,7 +28,7 @@ import { Head, Link } from '@inertiajs/vue3';
                     <div class="dropdown dropdown-hover">
                         <div tabindex="0" role="button" class="btn m-1">Hola {{ $page.props.auth.user.name }}</div>
                         <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                            <li><Link :href="route('cabinet')" >My plan</Link></li>
+                            <li><Link :href="route('cabinet')" >My plans</Link></li>
                             <li><Link :href="route('dashboard')" >Profile</Link></li>
                             <li><Link :href="route('logout')" method="post">Logout</Link></li>
                         </ul>
