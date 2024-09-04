@@ -31,8 +31,6 @@ const changeDay = (days) => {
 
 <template>
     <div>
-        
-
         <div class="w-full flex justify-center items-center mt-5 gap-5">
             <!-- Botón para día anterior -->
             <button @click="changeDay(-1)" class="p-3 bg-sky-500 text-white rounded-lg">Anterior</button>
